@@ -1,4 +1,11 @@
 # p5.js Template
+# Week 03 
+
+Image on repo:  
+![image description](./file-name.jpg)
+
+![DRDnQo.png](https://imgpile.com/images/DRDnQo.png)
+
 
 This is a README file that can be used to describe and document your assignment.
 
