@@ -6,7 +6,6 @@ let rectheight = 200;
 
 let eDiam = 50;
 let maxDiam = 50;
-let minDiam = 10;
 
 function setup() {
     createCanvas(600, 600);
@@ -14,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-    background(200);
+    background(200,20,20);
     
   
     // if(xpos < mouseX && mouseX < (xpos + rectwidth) && 
@@ -38,33 +37,19 @@ function draw() {
 
 
     //回形
-        //很多圆失败
+        很多圆
     fill("pink");
-
-    // randomSeed(0);
+    // xpos = xpos + eDiam;
     for(let xpos = 0; xpos <= width; xpos += maxDiam ){
         for(let ypos = 0; ypos <= height; ypos += maxDiam ){
             for(let dim = maxDiam; dim > 5; dim -= 8){
-                let tDiam = random(minDiam, maxDiam)
-                ellipse(xpos, ypos,tDiam,tDiam);
+                ellipse(xpos, ypos,dim,dim);
              }
          }
 
     }
 }
-    
-
-
-
-
-
-
-
-
-
-
-
-// for(let dim = maxDiam; dim > 5, dim -= 8;){
+    // for(let dim = maxDiam; dim > 5, dim -= 8;){
     //    ellipse(xpos, ypos,dim,dim);
     // }
 
@@ -120,4 +105,4 @@ function draw() {
 
 
    
-
+}
