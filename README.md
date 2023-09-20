@@ -16,6 +16,8 @@ Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://w
 
 **bold text**
 
+# hello
+
 *italicized text*
 
 ~~strikethrough text~~
